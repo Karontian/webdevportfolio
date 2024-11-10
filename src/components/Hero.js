@@ -43,7 +43,7 @@ export default function Hero() {
           aria-label="Global"
         >
           <div className="flex lg:flex-1">
-            <p className="-m-1.5 p-1.5 font-semibold">React Portfolio</p>
+            <p className="-m-1.5 p-1.5 font-semibold">HELLO TEST</p>
           </div>
           <div className="flex lg:hidden">
             <button
