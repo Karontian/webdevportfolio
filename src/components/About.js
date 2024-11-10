@@ -89,14 +89,119 @@ export default function About() {
                   Experience
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <a href="https://lfdispatch.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  Frog logistics Aug 2014-Present
+                </a>
+                <br/>              
+                Ops Manager:
+                <br/>
+                ➢ Business starter in Aug 2014 with one client and a 1980s AMPO/folder mentality.
+                Currently serving as Ops Manager for our biggest client combining all the functions I’ve held before
+                <br/>
+                ➢ Owner of 10% of the company and part of the administrative board (not active administrative
+                duties)
+                <br/>
+                ➢ Created the Driver board, a simple, faulty, local program I created in JS
+                shared through LAN to keep track of driver status and needs,.. I programmed this in an effort to improve our
+                operation without cost, all knowledge I got was gathered from searching google and StackOverflow for help from 0
+                knowledge , this got me into programming.... 
+                <br/>
+                ➢ Recently finished  working on a new driver Board that I plan to sell to the company and keep
+                on my portfolio, you can see it here: 
+                    <a href="https://board01-fe.netlify.app/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                      DriverBoard 
+                    </a>
+                <br/> 
+                ➢ Created the operations process from scratch, when I got to this company they
+                still printed PDF documents and called the US with a magicJack attached  to their house line. 
+                <br/>
+                ➢ Bult up the IT infrastructure for the new business, IPPhones, Storage Server
+                and VPN, back when you couldnt just buy VPN services. 
+                <br/>
+                ➢ Top salesman for over 6 years @ sales/dispatch position    
                 </p>
+
+                
+
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
+                <a href="https://www.linkedin.com/company/reallinx/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  reallinx  Dec 2010 - Nov 2013
+                </a>  
+                <br/>
+                Support Techlead agent:
+                <br/>
+                ➢ Lead their support team VoIP branch, attended technical escalations from support lvl1 agents,
+                WAN/LAN and IPVoice support cases arriving on our support line or email.
+                <br/>
+                ➢ TechLead for the support team
+                <br/>
+                ➢ Lab Admin
+                <br/>
+                ➢ Support provided included: Email, WLAN/LAN, IPVoice, DNS, NetGear Security Systems, Multi-vendor CPE devices.
                 </p>
+
+
+
+
+
                 <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                <a href="https://www.itsinfocom.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  ITS Costa Rica Aug 2010 - Dec 2010
+                </a>  
+                <br/>
+                Networking desing Specialist:
+                <br/>
+                ➢ Design the most efficient and cost effective network for recently built sites at customers premises.
+                <br/>
+                ➢ Held periodical Admin-tech meetings between the technicians doing the job and management controling the budgets.
+                <br/>
+                ➢ Held offsite field surveys to know and understand how a solution was going to be affected by the geography or weather
+                   conditions in the area specially in the case of wLAN and Satellite solutions.
+                <br/>
                 </p>
+
+
+                <p className="mt-3 list-item list-inside">
+                <a href="https://www.linkedin.com/company/sykes-costa-rica/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  Sykes LATAM Jan 2007 - June  2010
+                </a>  
+                <br/>
+                Voip Engineer:
+                <br/>
+                ➢ Held three positions all related to the support of VoIP, first as JR tech, then as SR tech finishing as
+                  their Cisco VoIP site technician @ La Aurora Heredia site. Learned accountability, I was responsible for all
+                  the equipment and maintenance desitions of a live production callCenter
+                <br/>
+                ➢ Deployed their Cisco VoIP network, servers, phones, switches,.. all
+                (Currently at use @ La Aurora, Heredia) for their field Cisco accounts
+                <br/>
+                ➢ Held responsibility over a farm of 10 Cisco VoIP IBM servers, their routers, switches and phones 
+                <br/>
+                ➢ Worked 24/7 365 onCall Attended business down situations and during the whole implementation I worked under “demand hours(NO OT LIMIT)…” until the project got finished.
+                <br/>
+                ➢ Received and attended foreign staff members coming from the corp US location to maintain our network
+                <br/>
+                ➢ Among other positions and responsiabilities: Cisco TAC Workload controller, Ciscto TAC LabAdmin, Cisco AVVID Engineer, Cisco ROS support specialist
+                </p>
+                
+                <p className="mt-3 list-item list-inside">
+                <a href="https://www.linkedin.com/company/sykes-costa-rica/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  HP La Aurora Jan 2006 - Jan 2007 (First Job)
+                </a>  
+                <br/>
+                ➢ Received electronic cases and routed them based on their location
+                <br/>
+                ➢ Routed calls based on customer problem description for their printer support  line
+                <br/>
+                ➢ Developed the MKRS program for printer maintenance in the NJ/NY/CT state area
+                <br/>
+                ➢ Graduated their online university’s call center team management track
+
+
+
+
+                </p>
+
               </div>
               <div
                 className="ring-2 ring-base-300 bg-base-200 rounded-2xl mt-10 p-5 shadow-xl"
