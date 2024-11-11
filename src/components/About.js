@@ -12,17 +12,17 @@ import "aos/dist/aos.css";
 const features = [
   {
     name: "Age:",
-    description: "18 years old",
+    description: "37",
     icon: CalendarIcon,
   },
   {
     name: "Email:",
-    description: "name@example.com",
+    description: "karontianpch@gmail.com",
     icon: AtSymbolIcon,
   },
   {
     name: "Location:",
-    description: "India, Earth",
+    description: "San Jose, Costa Rica",
     icon: MapPinIcon,
   },
 ];
@@ -45,17 +45,37 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" data-aos="fade-right">
-              I'm driven by a passion for learning and exploration across multiple fields. As a Krav Maga practitioner, 
+              I'm driven by passion for learning and exploration across multiple fields. As a Krav Maga practitioner, 
               I embrace discipline and resilience, traits that shape my approach to both personal and professional challenges. 
               I play several musical instruments, music fuels my creativity, sharpens my ability to think outside the box.
               <br/>
               I am currently diving into automotive mechanics, inspired by a genuine interest in how things work and a desire to expand my technical knowledge. (also to know what's going on with my car when it stops working).
+              <br/>
               My professional journey has given me solid experience on both  fields, technical and a customer service, developing a blend of technical know-how and exceptional communication skills.
               <br/>
-              For the last 5 years, I’ve been channeling my entrepreneurial mindset into web development, building my skills as a MERN (MongoDB, Express.js, React, Node.js) developer. I thrive on the constant learning and problem-solving that coding demands.
+              For the last 5 years, I’ve been channeling my entrepreneurial mindset into web development, building my skills as a MERN (MongoDB, Express.js, React, Node.js) developer.....I thrive on the constant learning and problem-solving that coding demands.
               <br/>
-              Whether I’m training, making music, working on engines, or coding, I’m committed to growth and innovation.
+              Whether I’m training, making music, working on engines, or coding, I’m committed to growth and innovation, thanks for reading, I hope you have a great day!
               </p>
+              <br/>
+              {features.map((feature) => (
+                <div key={feature.name} className="relative pl-9">
+                  <dt className="inline font-semibold">
+                    <feature.icon
+                      className="absolute left-1 top-1 h-5 w-5"
+                      aria-hidden="true"
+                    />
+                    {feature.name}
+                  </dt>{" "}
+                  <dd className="inline">{feature.description}</dd>
+                </div>
+              ))}
+              <br/>
+              <em>‘You have power over your mind – not outside events. Realize this, and you will find strength.’ – Marcus Aurelius</em>
+              
+              <br/>
+             
+
             </div>
           </div>
         </div>
@@ -276,18 +296,7 @@ export default function About() {
               className="mt-10 space-y-8 text-base leading-7 lg:max-w-none"
               data-aos="fade-right"
             >
-              {features.map((feature) => (
-                <div key={feature.name} className="relative pl-9">
-                  <dt className="inline font-semibold">
-                    <feature.icon
-                      className="absolute left-1 top-1 h-5 w-5"
-                      aria-hidden="true"
-                    />
-                    {feature.name}
-                  </dt>{" "}
-                  <dd className="inline">{feature.description}</dd>
-                </div>
-              ))}
+              
             </dl>
           </div>
         </div>

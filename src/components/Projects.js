@@ -1,44 +1,26 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../components/projectsEditedCss.css"
 
 const projects = [
   {
     id: 1,
-    name: "Sprinkles",
+    name: "Cuenta",
     href: "#",
     imageSrc:
       "https://fastly.picsum.photos/id/23/3887/4899.jpg?hmac=2fo1Y0AgEkeL2juaEBqKPbnEKm_5Mp0M2nuaVERE6eE",
     used: "ReactJS, TailwindCSS",
-    description: "A restaurant website.",
-  },
-  {
-    id: 2,
-    name: "Paper Bag",
-    href: "#",
-    imageSrc:
-      "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
-    used: "ReactJS, TailwindCSS",
-    description: "An online shopping website.",
-  },
-  {
-    id: 3,
-    name: "My Blogs",
-    href: "#",
-    imageSrc:
-      "https://fastly.picsum.photos/id/447/1280/853.jpg?hmac=4DUUCOsHRIoYbNrPRYEUHOW7wCjM7TROrTrYFivtdPw",
-
-    used: "ReactJS, TailwindCSS",
-    description: "A personal blogging website.",
+    description: "A restaurant billing app.",
   },
   {
     id: 4,
-    name: "Canopy",
+    name: "Board",
     href: "#",
     imageSrc:
       "https://fastly.picsum.photos/id/366/4000/3000.jpg?hmac=zphhHOH9ofToN2jNHd8z-nc98NrBd8y2okWXEXetLDg",
     used: "ReactJS, TailwindCSS",
-    description: "An online educational website.",
+    description: "A freight tracker board. credentials: user/1",
   },
 ];
 
@@ -53,7 +35,7 @@ export default function Projects() {
         <p className="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
           Projects
         </p>
-        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-10 projects-grid grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {projects.map((project) => (
             <div
               key={project.id}
