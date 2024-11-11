@@ -11,7 +11,7 @@ const frontend = [
   },
   {
     name: "JavaScript",
-    value: 70,
+    value: 90,
     icon: CheckCircleIcon,
   },
   {
@@ -19,28 +19,15 @@ const frontend = [
     value: 80,
     icon: CheckCircleIcon,
   },
-  {
-    name: "Next.js",
-    value: 60,
-    icon: CheckCircleIcon,
-  },
-  {
-    name: "TailwindCSS",
-    value: 80,
-    icon: CheckCircleIcon,
-  },
+
 ];
 const backend = [
   {
     name: "NodeJS",
-    value: 30,
-    icon: CheckCircleIcon,
-  },
-  {
-    name: "Python",
     value: 75,
     icon: CheckCircleIcon,
   },
+ 
   {
     name: "MySQL",
     value: 50,
@@ -48,17 +35,12 @@ const backend = [
   },
   {
     name: "APIs",
-    value: 20,
+    value: 50,
     icon: CheckCircleIcon,
   },
   {
     name: "MongoDB",
-    value: 40,
-    icon: CheckCircleIcon,
-  },
-  {
-    name: "GraphQL",
-    value: 30,
+    value: 85,
     icon: CheckCircleIcon,
   },
 ];

@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/20/solid";
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import { CardFooter } from 'react-bootstrap';
 const features = [
   {
     name: "Age:",
@@ -44,7 +45,16 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" data-aos="fade-right">
-                En Construccion.....
+              I'm driven by a passion for learning and exploration across multiple fields. As a Krav Maga practitioner, 
+              I embrace discipline and resilience, traits that shape my approach to both personal and professional challenges. 
+              I play several musical instruments, music fuels my creativity, sharpens my ability to think outside the box.
+              <br/>
+              I am currently diving into automotive mechanics, inspired by a genuine interest in how things work and a desire to expand my technical knowledge. (also to know what's going on with my car when it stops working).
+              My professional journey has given me solid experience on both  fields, technical and a customer service, developing a blend of technical know-how and exceptional communication skills.
+              <br/>
+              For the last 5 years, I’ve been channeling my entrepreneurial mindset into web development, building my skills as a MERN (MongoDB, Express.js, React, Node.js) developer. I thrive on the constant learning and problem-solving that coding demands.
+              <br/>
+              Whether I’m training, making music, working on engines, or coding, I’m committed to growth and innovation.
               </p>
             </div>
           </div>
@@ -198,6 +208,7 @@ export default function About() {
                 <h2 className=" text-2xl text-center font-bold tracking-tigh">
                   Education
                 </h2>
+                
                 <p className="mt-3 list-item list-inside">
                 ➢ Coding bootcamps finished: 
                 <br/>
@@ -215,6 +226,34 @@ export default function About() {
                 <a href="https://codewithmosh.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
                   codeWithMosh
                 </a>  
+                </p>
+                <p className="mt-3 list-item list-inside">
+                ➢ Coding Skills and tool familiarity:
+                <br/>
+                  - MERN stack
+                  <br/>
+                  - SQL
+                  <br/>
+                  - Responsive webDesing
+                  <br/>
+                  - FrontEnd frameworks
+                  <br/>
+                  - RESTful APIs
+                  <br/>
+                  - gitHub
+                  <br/>
+                  - VS Code
+                  <br/>
+                  - Mongoose
+                  <br/>
+                  - NPM
+                  <br/>
+                  - Pug
+                  <br/>
+                  - Chrome devTools
+                  <br/>
+                  - PostMan
+
                 </p>
                 <p className="mt-3 list-item list-inside">
                 ➢ Cisco Voice Over Ip Proffesional CCVP @ Cisco learning program CCVP
