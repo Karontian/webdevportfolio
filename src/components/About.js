@@ -215,13 +215,37 @@ export default function About() {
                   Education
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                ➢ Coding bootcamps finished: 
+                <br/>
+                -javaScript @  
+                <a href="https://teamtreehouse.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  treeHouse.com 
+                </a>  
+                <br/>
+                -SQL essentials @  
+                <a href="https://teamtreehouse.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  treeHouse.com 
+                </a>  
+                <br/>
+                -MERN development @  
+                <a href="https://codewithmosh.com/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>
+                  codeWithMosh
+                </a>  
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Vestibulum vitae augue sit amet ex laoreet euismod sed eu dui.
+                ➢ Cisco Voice Over Ip Proffesional CCVP @ Cisco learning program CCVP
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Fusce et leo nec elit mollis sollicitudin.
+                ➢ Cisco Networking Engineer program complete @ Universidad Interamericana CCNA
+                </p>
+                <p className="mt-3 list-item list-inside">
+                ➢ Sykes LATAM Customer Service Academy program
+                </p>
+                <p className="mt-3 list-item list-inside">
+                ➢ Hewlett-Packard Customer Care customer advocacy
+                </p>
+                <p className="mt-3 list-item list-inside">
+                ➢ Complete Elementary and Middle School @ La Salle High School
                 </p>
               </div>
             </div>
