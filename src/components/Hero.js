@@ -173,8 +173,8 @@ export default function Hero() {
                 </p>
                 <div className="mt-10 flex items-center justify-center gap-x-6">
                   <p>
-                  I am proud to say I can create a MERN environment, functional UI, DB and API
-                  connections in a couple hours for demonstration, no AI help.
+                  {/* I am proud to say I can create a MERN environment, functional UI, DB and API
+                  connections in a couple hours for demonstration, no AI help. */}
                   <br/>
                   Used to achieve the most with the least, lets talk!!, thank you for considering my profile.
 
