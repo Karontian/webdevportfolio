@@ -27,6 +27,11 @@ const backend = [
     value: 75,
     icon: CheckCircleIcon,
   },
+  {
+    name: "Express.js",
+    value: 75,
+    icon: CheckCircleIcon,
+  },
  
   {
     name: "MySQL",

@@ -1,11 +1,28 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_j1yjtet', 'template_8gtypda', e.target, 'FNEMWOmtFe_W-6BOh')
+      .then((result) => {
+          console.log(result.text);
+          alert('Message sent successfully!, pls allow the team 30min to respond');
+      }, (error) => {
+          console.log(error.text);
+          alert('Failed to send message, please try again.');
+      });
+
+    e.target.reset();
+  };
+
   return (
     <div className="py-24 sm:py-32" id="contact">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -16,8 +33,7 @@ export default function Contact() {
           </p>
         </div>
         <form
-          action=""
-          method="POST"
+          onSubmit={sendEmail}
           className="mx-auto mt-16 max-w-xl sm:mt-20"
           data-aos="zoom-in"
         >
@@ -33,7 +49,7 @@ export default function Contact() {
                 <input
                   type="text"
                   required
-                  name="first-name"
+                  name="first_name"
                   id="first-name"
                   autoComplete="given-name"
                   className="block bg-transparent w-full rounded-md border-0 px-3.5 py-2 text-current ring-1 ring-inset ring-base-content focus:ring-2 focus:ring-inset focus:ring-current sm:text-sm sm:leading-6"
@@ -51,7 +67,7 @@ export default function Contact() {
                 <input
                   type="text"
                   required
-                  name="last-name"
+                  name="last_name"
                   id="last-name"
                   autoComplete="family-name"
                   className="block bg-transparent w-full rounded-md border-0 px-3.5 py-2 text-current ring-1 ring-inset ring-base-content focus:ring-2 focus:ring-inset focus:ring-current sm:text-sm sm:leading-6"

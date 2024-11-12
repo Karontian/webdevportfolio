@@ -163,9 +163,9 @@ export default function Hero() {
                       "I'm a FullStack MERN Developer",
                       2000,
                       "I'm a Networking and VOIP Engineer",
-                      2000,
+                      500,
                       "I'm a Logistics Specialist ",
-                      2000,
+                      500,
                     ]}
                     speed={50}
                     repeat={Infinity}

@@ -7,19 +7,19 @@ const projects = [
   {
     id: 1,
     name: "Cuenta",
-    href: "#",
+    href: "https://menu4-fe.netlify.app/",
     imageSrc:
       "https://fastly.picsum.photos/id/23/3887/4899.jpg?hmac=2fo1Y0AgEkeL2juaEBqKPbnEKm_5Mp0M2nuaVERE6eE",
-    used: "ReactJS, TailwindCSS",
+    used: "MERN",
     description: "A restaurant billing app.",
   },
   {
     id: 4,
     name: "Board",
-    href: "#",
+    href: "https://board01-fe.netlify.app/",
     imageSrc:
       "https://fastly.picsum.photos/id/366/4000/3000.jpg?hmac=zphhHOH9ofToN2jNHd8z-nc98NrBd8y2okWXEXetLDg",
-    used: "ReactJS, TailwindCSS",
+    used: "MERN",
     description: "A freight tracker board. credentials: user/1",
   },
 ];
@@ -64,9 +64,9 @@ export default function Projects() {
             </div>
           ))}
         </div>
-        <div className="mt-16 flex justify-center">
+        {/* <div className="mt-16 flex justify-center">
           <button className="btn btn-outline">View More</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
