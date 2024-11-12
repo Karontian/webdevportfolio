@@ -35,9 +35,9 @@ export default function Footer() {
         </button>
       </div>
       <p className="mt-3">
-        Created with ❤️ by <span className="font-bold">Sohom Mondal</span>
+        Created by <span className="font-bold">Karontian</span>
       </p>
-      <p>Copyright © 2023 React Portfolio. All Rights Reserved</p>
+      <p>Copyright © 2024 React Portfolio. All Rights Reserved</p>
     </div>
   );
 }
